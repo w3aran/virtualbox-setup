@@ -13,3 +13,9 @@ Using Shell script:
 ```
 wget -O - https://raw.githubusercontent.com/w3aran/virtualbox-setup/master/install_virtualbox_on_debian_7_and_8_64bit.sh | sh
 ```
+
+Limitation
+-----------
+With VirtualBox, you can only create 32-bit "nested guest" OSes, even if the top-level guest is 64 bit and your "real" host has hardware VM.
+
+*Reference:* http://superuser.com/a/760318
