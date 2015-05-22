@@ -5,9 +5,5 @@ PACKAGE_DOWNLOAD_LINK=http://download.virtualbox.org/virtualbox/4.3.28/$PACKAGE_
 
 wget $PACKAGE_DOWNLOAD_LINK
 sudo dpkg -i $PACKAGE_FILE_NAME
+sudo apt-get -f install
 rm $PACKAGE_FILE_NAME
-
-echo "======================================================="
-echo "If you get dependency issue, please use the folloing command to install the missing dependencies"
-echo "sudo apt-get install -f"
-echo "======================================================="
