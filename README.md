@@ -9,7 +9,7 @@ From official site:
 
 Using Shell script:
 -------------------
-*To install on Debian 7/8 (64bit):*
+*To install on Debian 8 (64bit):*
 ```
 wget -O - https://raw.githubusercontent.com/w3aran/virtualbox-setup/master/install_virtualbox_on_debian_7_and_8_64bit.sh | sh
 ```
